@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    background-image: url("../images/bg-desktop.svg");
+    background-color: #674bb1;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    display: flex;
+    margin-bottom: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 20px 40px;
+    position: relative;
+}
+main .text h1 {
+    color: white;
+    margin-top: 50px;
+}
+main .text p{
+    color: white;
+    line-height: 1.8;
+    margin-top: 60px;
+}
+main .text input{
+    padding: 10px 40px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    color: #9284bb;
+    margin-top: 10px;
+}
+main .text input:hover{
+    cursor: pointer;
+}
+.text .icons{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 22px;
+    color: white;
+}
+.text .icons i{
+    margin-left: 10px;
+}
+.text .icons i:hover{
+    cursor: pointer;
+    color: #9284bb;
+}
+@media (max-width:767px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    main{
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text p{
+        margin-bottom: 20px
+    }
+    .text input{
+        width: 60%;
+    }
+    .text .icons{
+        position: static;
+        margin-top: 40px;
+    }
+}
