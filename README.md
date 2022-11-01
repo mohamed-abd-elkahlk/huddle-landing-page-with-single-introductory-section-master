@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/huddlelandingpagewithsingleintroductorysectionmaster-m0ofV1ReAq)
+- Live Site URL: [here](https://mohamed-abd-elkahlk.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
@@ -35,4 +35,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mohamed-abd-elkahlk](https://www.frontendmentor.io/profile/mohamed-abd-elkahlk)
